@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keyboard Settings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Switch
+        android:id="@+id/switch_auto_paste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Auto Paste"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_manage_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Custom Comments"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_enable_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Keyboard in Settings"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_select_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Custom Keyboard" />
+
+</LinearLayout>
